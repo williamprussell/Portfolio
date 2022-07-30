@@ -308,12 +308,20 @@
 } 
 
 .skills {
-    grid-column: 2 / 6;
+    grid-column: 2 / 7;
+    padding-right: 3rem;
 }
 
 .tools {
     grid-column: 7 / 12;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
 }
+
+/* .tools-image {
+    background-image: url("../images/tools.jpg");
+} */
 
 #heading {
     font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
@@ -326,6 +334,31 @@
 #heading:hover {
     text-decoration: line-through;
 }
+
+/* About Me END */
+
+/* Contact Me START */
+
+form {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-bottom: 4rem;
+}
+
+label {
+    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
+    font-size: 15px;
+    color: #b80000;
+}
+
+.contact-form {
+    grid-column: 2 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 /* Footer START */
 
