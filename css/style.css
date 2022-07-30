@@ -296,12 +296,35 @@
     padding-bottom: 4rem;
 }
 
+.will {
+    grid-column: span 12;
+}
+
+.will-info {
+    grid-column: 2/ 12;
+    font-size: 18px;
+    font-family: Lato, Arial, sans-serif;
+    text-align: center;
+} 
+
 .skills {
     grid-column: 2 / 6;
 }
 
 .tools {
     grid-column: 7 / 12;
+}
+
+#heading {
+    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
+    font-size: 30px;
+    color: #b80000;
+    display: flex;
+    justify-content: center;
+}
+
+#heading:hover {
+    text-decoration: line-through;
 }
 
 /* Footer START */
