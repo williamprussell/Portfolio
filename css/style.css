@@ -335,6 +335,17 @@
     text-decoration: line-through;
 }
 
+h2 {
+    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
+    font-size: 20px;
+    color: #b80000;
+}
+
+.skills-info {
+    font-size: 15px;
+    font-family: Lato, Arial, sans-serif;
+}
+
 /* About Me END */
 
 /* Contact Me START */
@@ -357,6 +368,7 @@ label {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 
