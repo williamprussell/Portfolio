@@ -7,6 +7,12 @@
     letter-spacing: 1px;
 }
 
+p {
+    font-size: 18px;
+    font-family: Lato, Arial, sans-serif;
+    padding-bottom: 1rem;
+}
+
 /* Navigation - Top START */
 
 .nav-bar {

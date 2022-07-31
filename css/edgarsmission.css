@@ -7,6 +7,12 @@
     letter-spacing: 1px;
 }
 
+p {
+    font-size: 18px;
+    font-family: Lato, Arial, sans-serif;
+    padding-bottom: 1rem;
+}
+
 /* Navigation - Top START */
 
 .nav-bar {
@@ -104,6 +110,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    padding-left: 4rem;
 }
 
 .hero-image {
@@ -120,10 +127,13 @@
     color: #b80000;
 }
 
+.title:hover {
+    text-decoration: line-through;
+}
+
 .intro {
     font-size: 20px;
     font-family: Lato, Arial, sans-serif;
-    font-weight: lighter;
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 2rem;
@@ -153,4 +163,23 @@
     .hero-image {
         grid-column: span 12;
     }
+}
+
+/* Hero END */
+
+/* About the Project START */
+
+#grid-about {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-bottom: 4rem;
+}
+
+.about-content {
+    grid-column: 2 / 12;
+}
+
+.title-h2 {
+    font-size: 25px;
+    font-family: Lato, Arial, sans-serif;
 }
