@@ -15,17 +15,6 @@
 
   gtag('config', 'G-S4PDQNFSW2');
 </script>
-<!-- Hotjar Tracking Code for https://williamprussell.github.io/UX_UI_HW_19/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3085732,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
 </head>
 <body>
     <div class="nav-bar">
@@ -36,6 +25,7 @@
              <a class="about" href="#">About</a>
              <a class="contact" href="#">Contact</a>
         </div>
+        <img class="burger" src="./images/menu-1.svg" alt="burger-menu">
     </div>
     <section class="hero">
         <div class="info-container">
@@ -49,7 +39,7 @@
             </p>
             <button class="resume-button">Download Resume</button>
         </div>
-        <img class="hero-image" src="./images/will-paris-crop.jpg" alt="Will in Paris">
+        <div class="hero-image"></div>
     </section>
     <!-- <div class="homepage-down">
         <div class="down-arrow">
@@ -72,7 +62,7 @@
                 and also to drive a sense of 
                 community post-pandemic.</p>
                 <button class="case-study-button">View Case Study</button>
-                <img class="buy-borrow-mock" src="./images/buy-and-borrow-mobile.png" alt="Buy & Borrow Mobile mock up">
+                <div class="buy-borrow-image"></div>
         </div>
         <div class="case-study-right">
             <h1 class="mock-header">Non-for-Profit Redesign</h1>
@@ -90,44 +80,31 @@
                 </p>
                 <a href="edgarsmission.html">
                 <button class="case-study-button">View Case Study</button></a>
-                <img class="buy-borrow-mock" src="./images/edgars-mission-mock.png" alt="Buy & Borrow Mobile mock up">
+                <div class="edgars-mission-image"></div>
         </div>
     </section>
     <section class="case-study-set-2">
         <div class="case-study-left">
             <h1 class="mock-header">ATO Redesign</h1>
-            <p>Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed d
-                o eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. 
-                Ut eni Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed d
-                o eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. 
-                Ut eni Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed d 
-                Lorem ipsum dolor sit amet, 
-                conse</p>
+            <p>The Australian Taxation Office provides service to users looking for key 
+                information for thier businesses, or their own finances, and is a hub for 
+                all resources to do with your tax return. The goal of this 
+                project was to redefine the Information Architecture of the ATO website, 
+                giving it a visual and stylistic overhaul in the process.
+            </p>
                 <button class="case-study-button">View Case Study</button>
-                <img class="buy-borrow-mock" src="./images/ato-mock.png" alt="Buy & Borrow Mobile mock up">
+                <div class="ato-image"></div>
         </div>
         <div class="case-study-right">
-            <h1 class="mock-header">UX Design Project (TBC)</h1>
-            <p>Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed d
-                o eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. 
-                Ut eni Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed d
-                o eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. 
-                Ut eni Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed d 
-                Lorem ipsum dolor sit amet, 
-                conse
+            <h1 class="mock-header">Impact Training & Volunteering App</h1>
+            <p>What started as a redesign of the 300 Blankets website, turned into 
+                an idea to kickstart people's volunteering work through education 
+                and connections with others. The goal of this project was to aid 
+                users who were looking to volunteer for causes they believe in, but 
+                were unsure what the best ways to help are, and where to find information.
                 </p>
                 <button class="case-study-button">View Case Study</button>
-                <img class="buy-borrow-mock" src="./images/Placeholder.png" alt="Buy & Borrow Mobile mock up">
+                <div class="impact-image"></div>
         </div>
     </section>
     <section id="about-me">
@@ -185,7 +162,7 @@
           <label>Email <input type="email" name="email" /></label>
         </p>
         <p>
-            <label>Message <input type="email" name="email" /></label>
+            <label >Message <input type="email" name="email" /></label>
           </p>
         <p>
           <button type="submit">Send</button>

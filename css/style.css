@@ -74,6 +74,12 @@ p {
     text-decoration: line-through;
 }
 
+.burger{
+    width: auto;
+    height: 50px;
+    display: none;
+}
+
 @media only screen and (max-width: 1250px) {
     .logo {
         height: 65px;
@@ -87,8 +93,10 @@ p {
 
     .nav-links {
         display: none;
-        background-image: url("../images/Menu.svg");
-        background-size: cover;
+    }
+
+    .burger{
+        display: block;
     }
 }
 
@@ -113,10 +121,11 @@ p {
 }
 
 .hero-image {
+    background-image: url("../images/will-1-greyscale.jpg");
+    background-size: cover;
+    min-height: 850px;
+    width: auto;
     grid-column: 5 / 13;
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
 }
 
 .title {
@@ -162,58 +171,46 @@ p {
     cursor: pointer;
 }
 
-/* .down-arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-4rem);
-    filter: invert(11%) sepia(74%) saturate(6192%) 
-    hue-rotate(358deg) brightness(89%) contrast(110%);
-}
-
-.down-arrow:hover {
-    filter: invert(100%) sepia(3%) saturate(7487%) 
-    hue-rotate(338deg) brightness(120%) contrast(103%);
-    cursor: pointer;
-} */
-
 @media only screen and (max-width: 1500px) {
     .title {
-        font-size: 20px;
+        font-size: 25px;
     }
 
-    .intro {
-        font-size: 15px;
-    }
-
-    .resume-button {
-        font-size: 15px;
-    }
 }
 
 @media only screen and (max-width: 1250px) {
     .title {
-        font-size: 15px;
+        font-size: 20px;
         padding-bottom: 1rem;
     }
 
     .intro {
         padding: 1rem;
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .resume-button {
-        font-size: 12px;
+        font-size: 17px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
+
+    .title{
+        font-size: 30px;
+    }
+
     .hero-image {
         grid-column: span 12;
     }
 
     .info-container {
         grid-column: span 12;
+        padding: 2rem;
+    }
+
+    .hero-image{
+        min-height: 500px;
     }
 }
 
@@ -240,33 +237,52 @@ p {
 .case-study-left {
     grid-column-start: 2;
     grid-column-end: 7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     padding-right: 3rem;
     font-size: 18px;
     font-family: Lato, Arial, sans-serif;
-
 }
 
 .case-study-right {
     grid-column-start: 7;
     grid-column-end: 12;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     padding-left: 3rem;
     font-size: 18px;
     font-family: Lato, Arial, sans-serif;
 }
 
-.buy-borrow-mock {
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
-    padding: 2rem;
+.buy-borrow-image {
+    background-image: url("../images/buy-and-borrow-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-top: 2rem;
+}
+
+.edgars-mission-image {
+    background-image: url("../images/hero-edgars.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-top: 2rem;
+}
+
+.ato-image {
+    background-image: url("../images/ato-mock.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-top: 2rem;
+}
+
+.impact-image {
+    background-image: url("../images/banner-mock.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-top: 2rem;
+    margin-left: 10rem;
 }
 
 .case-study-button {
@@ -277,6 +293,8 @@ p {
     padding: 1rem;
     font-weight: bold;
     border-radius: 10px;
+    max-width: 300px;
+    margin: 2rem;
 }
 
 .case-study-button:hover {
@@ -290,6 +308,22 @@ p {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding-bottom: 4rem;
+}
+
+@media only screen and (max-width: 1250px) {
+    .case-study-right{
+        grid-column: span 12;
+        padding-left: 0;
+    }
+
+    .case-study-left{
+        grid-column: span 12;
+        padding-right: 0;
+    }
+
+    .buy-borrow-image{
+        margin: 0 auto;
+    }
 }
 
 /* Case studies END */
@@ -357,9 +391,15 @@ h2 {
 /* Contact Me START */
 
 form {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    padding-bottom: 4rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    min-width: 560px;
+    width: 40vw;
+    /* border: 1px solid #424242; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
 }
 
 label {
@@ -368,15 +408,34 @@ label {
     color: #b80000;
 }
 
-.contact-form {
-    grid-column: 2 / 6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+input {
+    margin-bottom: 1.5rem;
+    width: 250%;
+    height: 48px;
+    padding: 0 1rem;
+  }
+
+input:focus {
+    background-color: black;
+    color: white;
 }
 
+form button {
+    border-color: #b80000;
+    background-color: white;
+    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
+    font-size: 20px;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 50%;
+  }
+  form button:hover {
+    background-color: #b80000;
+    color: white;
+    text-decoration: line-through;
+    cursor: pointer;
+  }
 
 /* Footer START */
 

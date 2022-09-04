@@ -11,3 +11,10 @@ $('.about').click(function (e) {
         scrollTop: $('#about-me').offset().top
     }, 1500);
 });
+
+$('.contact').click(function (e) {
+    console.log("hello");
+    $('html, body').animate({
+        scrollTop: $('.contact-form').offset().top
+    }, 1500);
+});
