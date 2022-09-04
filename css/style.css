@@ -314,11 +314,13 @@ p {
     .case-study-right{
         grid-column: span 12;
         padding-left: 0;
+        text-align: left;
     }
 
     .case-study-left{
         grid-column: span 12;
         padding-right: 0;
+        text-align: left;
     }
 
     .buy-borrow-image{
@@ -386,6 +388,22 @@ h2 {
     font-family: Lato, Arial, sans-serif;
 }
 
+
+@media only screen and (max-width: 1000px){
+    .will.info{
+        grid-column: span 12;
+    }
+
+    .skills{
+        grid-column: span 12;
+        padding-right: 0;
+    }
+
+    .tools{
+        grid-column: span 12;
+        padding-left: 0;
+    }
+}
 /* About Me END */
 
 /* Contact Me START */
@@ -511,4 +529,10 @@ form button {
 .linkedin:hover {
     filter: invert(11%) sepia(74%) saturate(6192%) 
     hue-rotate(358deg) brightness(89%) contrast(110%);
+}
+
+@media only screen and (max-width: 1000px){
+    .footer{
+        flex-direction: column;
+    }
 }
