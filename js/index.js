@@ -18,3 +18,10 @@ $('.contact').click(function (e) {
         scrollTop: $('.contact-form').offset().top
     }, 1500);
 });
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navLinks = document.getElementsByClassName('nav-links')[0]
+
+toggleButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active')
+})
