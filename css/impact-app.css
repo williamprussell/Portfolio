@@ -13,6 +13,35 @@ p {
     padding-bottom: 1rem;
 }
 
+h1 {
+    font-size: 30px;
+    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
+    padding-bottom: 1rem;
+    color: #b80000;
+}
+
+h1:hover {
+    text-decoration: line-through;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    font-weight: normal;
+    color: #b80000;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    font-weight: normal;
+    color: #b80000;
+}
+
 /* Navigation - Top START */
 
 .nav-bar {
@@ -169,17 +198,6 @@ span:hover{
     margin: auto;
 }
 
-.title {
-    font-size: 30px;
-    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
-    padding-bottom: 2rem;
-    color: #b80000;
-}
-
-.title:hover {
-    text-decoration: line-through;
-}
-
 .intro {
     font-size: 20px;
     font-family: Lato, Arial, sans-serif;
@@ -222,7 +240,7 @@ span:hover{
 
 /* About the Project START */
 
-#grid-about {
+#grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding-bottom: 4rem;
@@ -235,4 +253,101 @@ span:hover{
 .title-h2 {
     font-size: 25px;
     font-family: Lato, Arial, sans-serif;
+}
+
+/* About the Project END */
+
+/* Methodlogy START */
+
+.method-content{
+    grid-column: 2 / 12;
+}
+
+.method{
+    background-image: url("../images/impact-method.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+/* Methodology END */
+
+/* Proto Persona START */
+
+.proto-info{
+    grid-column: 2 / 6;
+}
+
+.proto-image{
+    grid-column: 7 / 12;
+    background-image: url("../images/impact-proto.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 450px;
+}
+
+/* Proto Persona END */
+
+/* Research START*/
+
+.research-content{
+    grid-column: 2 / 6;
+}
+
+.research-image{
+    grid-column: 7 / 12;
+    background-image: url("../images/impact-statistics\ \(2\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.interview-content{
+    grid-column: 2 / 12;
+}
+
+/* Research END */
+
+/* User Persona START */
+
+.persona-content{
+    grid-column: 2 / 12;
+}
+
+.persona-image{
+    grid-column: 2 / 12;
+    background-image: url("../images/user-persona.png");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    min-height: 900px;
+}
+
+/* User Persona END */
+
+/* Key Insights START */
+
+.insights{
+    grid-column: 2 / 12;
+}
+
+/* Key Insights END */
+
+/* Problem Statement START */
+
+.problem-statement{
+    grid-column: 2 / 12;
+}
+
+/* Ideation START */
+
+.ideation{
+    grid-column: 2/ 6;
+}
+
+.comp-analysis{
+    grid-column: 7 / 12;
+    background-image: url("../images/comp-analysis.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
 }
