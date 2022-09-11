@@ -340,8 +340,9 @@ span:hover{
 
 /* Ideation START */
 
-.ideation{
+.ideation-1{
     grid-column: 2/ 6;
+    margin-bottom: 4rem;
 }
 
 .comp-analysis{
@@ -349,5 +350,61 @@ span:hover{
     background-image: url("../images/comp-analysis.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 400px;
+    margin-bottom: 4rem;
 }
+
+.ideation-2{
+    grid-column: 2/ 6;
+    margin-bottom: 4rem;
+}
+
+.feature-prior{
+    grid-column: 7 / 12;
+    background-image: url("../images/feature-impact.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    margin-bottom: 4rem;
+}
+
+.ideation-3{
+    grid-column: 2/ 6;
+    margin-bottom: 4rem;
+}
+
+.value-proposition{
+    grid-column: 7 / 12;
+    background-image: url("../images/value-impact.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    margin-bottom: 4rem;
+}
+
+.ideation-4{
+    grid-column: 2/ 6;
+    margin-bottom: 4rem;
+}
+
+.storyboard{
+    grid-column: 7 / 12;
+    background-image: url("../images/storyboard-impact.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-bottom: 4rem;
+}
+
+.ideation-5{
+    grid-column: 2 / 12;
+}
+
+/* Ideation END */
+
+/* User Flows START */
+
+.user-flow{
+    grid-column: 2 / 12;
+}
+
