@@ -305,11 +305,7 @@ span:hover{
     background-image: url("../images/impact-proto.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    min-height: 700px;
 }
 
 /* Proto Persona END */
@@ -345,12 +341,7 @@ span:hover{
     background-image: url("../images/user-persona.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 400px;
-    margin-bottom: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    min-height: 700px;
 }
 
 /* User Persona END */
@@ -381,12 +372,8 @@ span:hover{
     background-image: url("../images/comp-analysis.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 400px;
+    min-height: 700px;
     margin-bottom: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .ideation-2{
@@ -399,12 +386,8 @@ span:hover{
     background-image: url("../images/feature-impact.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 400px;
+    min-height: 700px;
     margin-bottom: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .ideation-3{
@@ -417,12 +400,8 @@ span:hover{
     background-image: url("../images/value-impact.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 400px;
+    min-height: 700px;
     margin-bottom: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .ideation-4{
@@ -435,12 +414,8 @@ span:hover{
     background-image: url("../images/storyboard-impact.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 800px;
     margin-bottom: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
 .ideation-5{
@@ -461,12 +436,7 @@ span:hover{
     background-image: url("../images/user-flow.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 200px;
-    margin-bottom: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    min-height: 400px;
 }
 
 /* User Flows END */
@@ -482,12 +452,7 @@ span:hover{
     background-image: url("../images/lofi-frames.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 300px;
-    margin-bottom: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    min-height: 700px;
 }
 
 .key-findings{
@@ -495,12 +460,7 @@ span:hover{
     background-image: url("../images/testing-changes.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 650px;
-    margin-bottom: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    min-height: 1500px;
 }
 
 /* Lofi END */
@@ -516,12 +476,7 @@ span:hover{
     background-image: url("../images/style-guide.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 300px;
-    margin-bottom: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    min-height: 600px;
 }
 
 .hifi-image{
@@ -529,11 +484,53 @@ span:hover{
     background-image: url("../images/hifi-image.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 500px;
-    margin-bottom: 4rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    position: relative;
+    min-height: 1000px;
+}
+
+.training-image{
+    grid-column: 2 / 12;
+    background-image: url("../images/Quiz.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    margin-left: 2rem;
+}
+
+.calendar-image{
+    grid-column: 2 / 12;
+    background-image: url("../images/Calendar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    margin-left: 2rem;
+}
+
+.connect-image{
+    grid-column: 2 / 12;
+    background-image: url("../images/Connect.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    margin-left: 2rem;
+}
+
+.website{
+    grid-column: 2 / 12;
+}
+
+.website-image{
+    grid-column: 2 / 12;
+    background-image: url("../images/website-300blankets.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin-left: 12rem;
+}
+
+/* Hifi END */
+
+/* Reflection START */
+
+.reflection{
+    grid-column: 2 / 12;
 }
