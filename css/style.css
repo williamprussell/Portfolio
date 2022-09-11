@@ -13,6 +13,35 @@ p {
     padding-bottom: 1rem;
 }
 
+h1 {
+    font-size: 30px;
+    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
+    padding-bottom: 1rem;
+    color: #b80000;
+}
+
+h1:hover {
+    text-decoration: line-through;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    font-weight: normal;
+    color: #b80000;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: ITC Avant Garde Gothic Pro , Arial, sans-serif;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    font-weight: normal;
+    color: #b80000;
+}
+
 /* #site-container{
     float: none;
     margin-left: auto;
