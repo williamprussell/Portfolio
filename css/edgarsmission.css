@@ -417,13 +417,13 @@ span:hover{
 
 @media only screen and (max-width:1000px){
     .comp-analysis{
-        min-height: 500px;
+        min-height: 250px;
     }
 }
 
 @media only screen and (max-width:750px){
     .comp-analysis{
-        min-height: 350px;
+        min-height: 200px;
     }
 }
 
@@ -443,13 +443,13 @@ span:hover{
 
 @media only screen and (max-width:1000px){
     .feature-prior{
-        min-height: 500px;
+        min-height: 400px;
     }
 }
 
 @media only screen and (max-width:750px){
     .feature-prior{
-        min-height: 350px;
+        min-height: 300px;
     }
 }
 
@@ -495,7 +495,7 @@ span:hover{
 
 @media only screen and (max-width:1000px){
     .storyboard{
-        min-height: 500px;
+        min-height: 600px;
     }
 }
 
@@ -540,7 +540,11 @@ span:hover{
 
 @media only screen and (max-width:1000px){
     .flow-image{
-        min-height: 300px;
+        min-height: 200px;
+    }
+
+    .flow-image-2{
+        min-height: 500px;
     }
 }
 
@@ -548,6 +552,11 @@ span:hover{
     .flow-image{
         min-height: 250px;
     }
+
+    .flow-image-2{
+        min-height: 350px;
+    }
+
 }
 
 /* User Flows END */
@@ -606,11 +615,19 @@ span:hover{
     .style-image{
         min-height: 400px;
     }
+
+    .style-image-2{
+        min-height: 400px;
+    }
 }
 
 @media only screen and (max-width:750px){
     .style-image{
         min-height: 250px;
+    }
+
+    .style-image{
+        min-height: 300px;
     }
 }
 
@@ -643,13 +660,29 @@ span:hover{
 
 @media only screen and (max-width:1000px){
     .hifi-image{
-        min-height: 700px;
+        min-height: 2000px;
+    }
+
+    .donate-image{
+        min-height: 500px;
+    }
+
+    .volunteer-image{
+        min-height: 500px;
     }
 }
 
 @media only screen and (max-width:750px){
     .hifi-image{
-        min-height: 500px;
+        min-height: 1500px;
+    }
+
+    .donate-image{
+        min-height: 300px;
+    }
+
+    .volunteer-image{
+        min-height: 300px;
     }
 }
 
@@ -726,13 +759,13 @@ span:hover{
 }
 
 @media only screen and (max-width:1000px){
-    .connect-image{
+    .visit-image{
         min-height: 500px;
     }
 }
 
 @media only screen and (max-width:750px){
-    .connect-image{
+    .visit-image{
         min-height: 350px;
     }
 }
