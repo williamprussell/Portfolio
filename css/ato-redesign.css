@@ -50,6 +50,25 @@ h3 {
     max-width: 1400px;
 }
 
+@media only screen and (max-width:400px){
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 17px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
+
 /* Navigation - Top START */
 
 .nav-bar {
@@ -177,6 +196,24 @@ span:hover{
     }
 }
 
+@media only screen and (max-width:750px){
+    .logo{
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .logo{
+        height: 25px;
+    }
+
+    .toggle-button{
+        width: 40px;
+        height: 20px;
+        top: 0.7rem;
+    }
+}
+
 /* Navigation - Top END */
 
 /*Hero START */
@@ -286,6 +323,12 @@ span:hover{
 
 @media only screen and (max-width:1000px){
     .method{
+        min-height: 100px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .method{
         min-height: 50px;
     }
 }
@@ -318,6 +361,12 @@ span:hover{
     }
 }
 
+@media only screen and (max-width:400px){
+    .proto-image{
+        min-height: 200px;
+    }
+}
+
 /* Proto Persona END */
 
 /* Research START*/
@@ -332,6 +381,18 @@ span:hover{
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 300px;
+}
+
+@media only screen and (max-width:1000px){
+    .research-image{
+        min-height: 150px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .research-image{
+        min-height: 80px;
+    }
 }
 
 .interview-content{
@@ -351,27 +412,27 @@ span:hover{
         grid-column: 2 / 12;
     }
 
-    .research-image{
+    .matrix-image{
         grid-column: 2 / 12;
-        min-height: 500px;
+        min-height: 400px;
     }
 }
 
 @media only screen and (max-width:750px){
-    .proto-image{
-        min-height: 350px;
+    .matrix-image{
+        min-height: 150px;
     }
 }
 
 /* Research END */
 
-/* User Persona START */
+/* Define START */
 
-.persona-content{
+.define{
     grid-column: 2 / 12;
 }
 
-.persona-image{
+.atoflow-image{
     grid-column: 2 / 12;
     background-image: url("../images/ato/flow-ato.png");
     background-size: contain;
@@ -380,34 +441,157 @@ span:hover{
 }
 
 @media only screen and (max-width:1000px){
-    .persona-image{
-        min-height: 500px;
+    .atoflow-image{
+        min-height: 400px;
     }
 }
 
 @media only screen and (max-width:750px){
-    .persona-image{
-        min-height: 350px;
+    .atoflow-image{
+        min-height: 250px;
     }
 }
 
-/* User Persona END */
+@media only screen and (max-width:750px){
+    .atoflow-image{
+        min-height: 200px;
+    }
+}
 
-/* Key Insights START */
+/* Define END */
 
-.insights{
+/* ia START */
+
+.ia{
     grid-column: 2 / 12;
 }
 
-/* Key Insights END */
+.card-1{
+    grid-column: 2 / 12;
+    background-image: url("../images/ato/card1-ato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin-bottom: 2rem;
+}
 
-/* Problem Statement START */
+.card-2{
+    grid-column: 2 / 12;
+    background-image: url("../images/ato/card2-ato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin-bottom: 2rem;
+}
 
-.problem-statement{
+.site-map{
+    grid-column: 2 / 12;
+    background-image: url("../images/ato/sitemap-ato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width:1000px){
+    .card-1{
+        min-height: 400px;
+    }
+
+    .card-2{
+        min-height: 400px;
+    }
+
+    .site-map{
+        min-height: 800px;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .card-1{
+        min-height: 300px;
+    }
+
+    .card-2{
+        min-height: 300px;
+    }
+
+    .site-map{
+        min-height: 500px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .card-1{
+        min-height: 200px;
+    }
+
+    .card-2{
+        min-height: 200px;
+    }
+
+    .site-map{
+        min-height: 300px;
+    }
+}
+
+/* IA END */
+
+/* Lofi START */
+
+.low-fidelity{
     grid-column: 2 / 12;
 }
 
-/* Ideation START */
+.atolofi-image{
+    grid-column: 2 / 12;
+    background-image: url("../images/ato/lofi-ato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    margin-bottom: 2rem;
+}
+
+.atolofi-image-2{
+    grid-column: 6 / 8;
+    background-image: url("../images/ato/lofi-mobile-ato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+}
+
+@media only screen and (max-width:1000px){
+    .atolofi-image{
+        min-height: 500px;
+    }
+
+    .atolofi-image-2{
+        min-height: 800px;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .atolofi-image{
+        min-height: 400px;
+    }
+
+    .atolofi-image-2{
+        min-height: 600px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .atolofi-image{
+        min-height: 200px;
+    }
+
+    .atolofi-image-2{
+        min-height: 200px;
+    }
+}
+
+
+/* Components START */
 
 .ideation-1{
     grid-column: 2/ 12;
@@ -416,390 +600,149 @@ span:hover{
 
 .comp-analysis{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/site-anal-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 400px;
-    margin-bottom: 4rem;
-}
-
-@media only screen and (max-width:1000px){
-    .comp-analysis{
-        min-height: 250px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .comp-analysis{
-        min-height: 200px;
-    }
-}
-
-.ideation-2{
-    grid-column: 2/ 12;
-    margin-bottom: 4rem;
-}
-
-.feature-prior{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/comp-anal-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 600px;
-    margin-bottom: 4rem;
-}
-
-@media only screen and (max-width:1000px){
-    .feature-prior{
-        min-height: 400px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .feature-prior{
-        min-height: 300px;
-    }
-}
-
-.ideation-3{
-    grid-column: 2/ 12;
-    margin-bottom: 4rem;
-}
-
-.value-proposition{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/feature-prior-edgars.png");
+    background-image: url("../images/ato/components-ato.png");
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 700px;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 @media only screen and (max-width:1000px){
-    .value-proposition{
+    .comp-analysis{
         min-height: 500px;
     }
 }
 
 @media only screen and (max-width:750px){
-    .value-proposition{
-        min-height: 350px;
+    .comp-analysis{
+        min-height: 400px;
     }
 }
 
-.ideation-4{
-    grid-column: 2/ 12;
-    margin-bottom: 4rem;
+@media only screen and (max-width:400px){
+    .comp-analysis{
+        min-height: 200px;
+    }
 }
 
-.storyboard{
+.feature-prior{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/user-journey-edgars.png");
+    background-image: url("../images/ato/comps2-ato.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 1000px;
-    margin-bottom: 4rem;
+    min-height: 700px;
 }
 
 @media only screen and (max-width:1000px){
-    .storyboard{
-        min-height: 600px;
+    .feature-prior{
+        min-height: 500px;
     }
 }
 
 @media only screen and (max-width:750px){
-    .storyboard{
-        min-height: 350px;
+    .feature-prior{
+        min-height: 400px;
     }
 }
 
-.ideation-5{
-    grid-column: 2 / 12;
+@media only screen and (max-width:400px){
+    .feature-prior{
+        min-height: 200px;
+    }
 }
 
-/* Ideation END */
+/* Components END */
 
-/* User Flows START */
+/* Hifi START */
 
-.user-flow{
+.hifi{
     grid-column: 2 / 12;
     margin-bottom: 2rem;
 }
 
-.flow-image{
+.style-guide-ato{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/site-map-edgars.png");
+    background-image: url("../images//ato/ato-style-guide-4.png");
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 650px;
 }
 
-.ia{
+.rwd-ato{
     grid-column: 2 / 12;
-}
-
-.flow-image-2{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/user-flow-edgars.png");
+    background-image: url("../images/ato/rwd-ato.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 800px;
+    min-height: 750px;
+}
+
+.homepage-ato{
+    grid-column: 2 / 12;
+    background-image: url("../images/ato/homepage-ato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 900px;
+}
+
+.mobileproto-ato{
+    grid-column: 6 / 8;
+    background-image: url("../images/ato/mobile-final-ato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 1000px;
 }
 
 @media only screen and (max-width:1000px){
-    .flow-image{
+    .style-guide-ato{
+        min-height: 500px;
+    }
+
+    .rwd-ato{
+        min-height: 500px;
+    }
+
+    .homepage-ato{
+        min-height: 500px;
+    }
+
+    .mobileproto-ato{
+        min-height: 500px;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .style-guide-ato{
+        min-height: 400px;
+    }
+
+    .rwd-ato{
+        min-height: 400px;
+    }
+
+    .homepage-ato{
+        min-height: 400px;
+    }
+
+    .mobileproto-ato{
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .style-guide-ato{
         min-height: 200px;
     }
 
-    .flow-image-2{
-        min-height: 500px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .flow-image{
-        min-height: 250px;
+    .rwd-ato{
+        min-height: 200px;
     }
 
-    .flow-image-2{
-        min-height: 350px;
+    .homepage-ato{
+        min-height: 200px;
     }
 
-}
-
-/* User Flows END */
-
-/* Lofi START */
-
-.lofi-info{
-    grid-column: 2 / 12;
-}
-
-.lofi-image{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/lofi-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 850px;
-}
-
-@media only screen and (max-width:1000px){
-    .lofi-image{
-        min-height: 500px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .lofi-image{
-        min-height: 350px;
-    }
-}
-
-/* Lofi END */
-
-/* Hifi START */
-
-.hifi-info{
-    grid-column: 2 / 12;
-}
-
-.style-image{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission//style-1-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 700px;
-}
-
-.style-image-2{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/style-2-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 500px;
-}
-
-@media only screen and (max-width:1000px){
-    .style-image{
-        min-height: 400px;
-    }
-
-    .style-image-2{
-        min-height: 400px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .style-image{
-        min-height: 250px;
-    }
-
-    .style-image{
-        min-height: 300px;
-    }
-}
-
-.hifi-image{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/home-hifi-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 2800px;
-    margin-bottom: 4rem;
-}
-
-.volunteer-image{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/volunteer-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 800px;
-    margin-bottom: 4rem;
-}
-
-.donate-image{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/donate-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 800px;
-    margin-bottom: 4rem;
-}
-
-@media only screen and (max-width:1000px){
-    .hifi-image{
-        min-height: 2000px;
-    }
-
-    .donate-image{
-        min-height: 500px;
-    }
-
-    .volunteer-image{
-        min-height: 500px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .hifi-image{
-        min-height: 1500px;
-    }
-
-    .donate-image{
-        min-height: 300px;
-    }
-
-    .volunteer-image{
-        min-height: 300px;
-    }
-}
-
-.training-image{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/adopt-mock-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 800px;
-    margin-left: 2rem;
-}
-
-@media only screen and (max-width:1000px){
-    .training-image{
-        min-height: 500px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .training-image{
-        min-height: 350px;
-    }
-}
-
-.calendar-image{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/donate-mock-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 800px;
-    margin-left: 2rem;
-}
-
-@media only screen and (max-width:1000px){
-    .calendar-image{
-        min-height: 500px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .calendar-image{
-        min-height: 350px;
-    }
-}
-
-.connect-image{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/volunteer-mock-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 800px;
-    margin-left: 2rem;
-}
-
-@media only screen and (max-width:1000px){
-    .connect-image{
-        min-height: 500px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .connect-image{
-        min-height: 350px;
-    }
-}
-
-.visit-image{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/visit-mock-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 800px;
-    margin-left: 2rem;
-}
-
-@media only screen and (max-width:1000px){
-    .visit-image{
-        min-height: 500px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .visit-image{
-        min-height: 350px;
-    }
-}
-
-.website{
-    grid-column: 2 / 12;
-}
-
-.website-image{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/mobile-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 800px;
-}
-
-@media only screen and (max-width:1400px){
-    .website-image{
-        margin-left: 8rem;
-    }
-}
-
-@media only screen and (max-width:1000px){
-    .website-image{
-        margin-left: 0rem;
-        min-height: 400px;
+    .mobileproto-ato{
+        min-height: 200px;
     }
 }
 
