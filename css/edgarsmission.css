@@ -42,6 +42,24 @@ h3 {
     color: #b80000;
 }
 
+@media only screen and (max-width:400px){
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 17px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
 
 #site-container{
     float: none;
@@ -177,6 +195,28 @@ span:hover{
     }
 }
 
+@media only screen and (max-width:750px){
+    .logo{
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .logo{
+        height: 25px;
+    }
+
+    .toggle-button{
+        width: 40px;
+        height: 20px;
+        top: 0.7rem;
+    }
+
+    .toggle-button .bar{
+        height: 2px;
+    }
+}
+
 /* Navigation - Top END */
 
 /*Hero START */
@@ -290,6 +330,12 @@ span:hover{
     }
 }
 
+@media only screen and (max-width:400px){
+    .method{
+        min-height: 50px;
+    }
+}
+
 /* Methodology END */
 
 /* Proto Persona START */
@@ -315,6 +361,12 @@ span:hover{
 @media only screen and (max-width:750px){
     .proto-image{
         min-height: 350px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .proto-image{
+        min-height: 250px;
     }
 }
 
@@ -350,8 +402,14 @@ span:hover{
 }
 
 @media only screen and (max-width:750px){
-    .proto-image{
+    .research-image{
         min-height: 350px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .research-image{
+        min-height: 200px;
     }
 }
 
@@ -380,6 +438,12 @@ span:hover{
 @media only screen and (max-width:750px){
     .persona-image{
         min-height: 350px;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .persona-image{
+        min-height: 200px;
     }
 }
 
@@ -427,6 +491,12 @@ span:hover{
     }
 }
 
+@media only screen and (max-width:400px){
+    .comp-analysis{
+        min-height: 100px;
+    }
+}
+
 .ideation-2{
     grid-column: 2/ 12;
     margin-bottom: 4rem;
@@ -450,6 +520,12 @@ span:hover{
 @media only screen and (max-width:750px){
     .feature-prior{
         min-height: 300px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .feature-prior{
+        min-height: 200px;
     }
 }
 
@@ -479,6 +555,12 @@ span:hover{
     }
 }
 
+@media only screen and (max-width:7400px){
+    .value-proposition{
+        min-height: 200px;
+    }
+}
+
 .ideation-4{
     grid-column: 2/ 12;
     margin-bottom: 4rem;
@@ -502,6 +584,12 @@ span:hover{
 @media only screen and (max-width:750px){
     .storyboard{
         min-height: 350px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .storyboard{
+        min-height: 300px;
     }
 }
 
@@ -556,8 +644,18 @@ span:hover{
     .flow-image-2{
         min-height: 350px;
     }
-
 }
+
+@media only screen and (max-width:400px){
+    .flow-image{
+        min-height: 200px;
+    }
+
+    .flow-image-2{
+        min-height: 250px;
+    }
+}
+
 
 /* User Flows END */
 
@@ -584,6 +682,12 @@ span:hover{
 @media only screen and (max-width:750px){
     .lofi-image{
         min-height: 350px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .lofi-image{
+        min-height: 300px;
     }
 }
 
@@ -626,8 +730,18 @@ span:hover{
         min-height: 250px;
     }
 
-    .style-image{
+    .style-image-2{
         min-height: 300px;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .style-image{
+        min-height: 250px;
+    }
+
+    .style-image-2{
+        min-height: 200px;
     }
 }
 
@@ -686,6 +800,20 @@ span:hover{
     }
 }
 
+@media only screen and (max-width:400px){
+    .hifi-image{
+        min-height: 800px;
+    }
+
+    .donate-image{
+        min-height: 250px;
+    }
+
+    .volunteer-image{
+        min-height: 250px;
+    }
+}
+
 .training-image{
     grid-column: 2 / 12;
     background-image: url("../images/edgars-mission/adopt-mock-edgars.png");
@@ -704,6 +832,13 @@ span:hover{
 @media only screen and (max-width:750px){
     .training-image{
         min-height: 350px;
+    }
+}
+
+@media only screen and (max-width:750px){
+    .training-image{
+        min-height: 250px;
+        margin-left: 0rem;
     }
 }
 
@@ -728,6 +863,13 @@ span:hover{
     }
 }
 
+@media only screen and (max-width:400px){
+    .calendar-image{
+        min-height: 250px;
+        margin-left: 0rem;
+    }
+}
+
 .connect-image{
     grid-column: 2 / 12;
     background-image: url("../images/edgars-mission/volunteer-mock-edgars.png");
@@ -749,6 +891,13 @@ span:hover{
     }
 }
 
+@media only screen and (max-width:400px){
+    .connect-image{
+        min-height: 250px;
+        margin-left: 0rem;
+    }
+}
+
 .visit-image{
     grid-column: 2 / 12;
     background-image: url("../images/edgars-mission/visit-mock-edgars.png");
@@ -767,6 +916,13 @@ span:hover{
 @media only screen and (max-width:750px){
     .visit-image{
         min-height: 350px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .visit-image{
+        min-height: 250px;
+        margin-left: 0rem;
     }
 }
 
@@ -792,6 +948,12 @@ span:hover{
     .website-image{
         margin-left: 0rem;
         min-height: 400px;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .website-image{
+        min-height: 200px;
     }
 }
 
