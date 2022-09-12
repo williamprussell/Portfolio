@@ -278,7 +278,7 @@ span:hover{
 }
 
 .method{
-    background-image: url("../images/edgars-mission/method-edgars.png");
+    background-image: url("../images/ato/method-ato.png");
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 200px;
@@ -300,7 +300,7 @@ span:hover{
 
 .proto-image{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/proto-edgars.png");
+    background-image: url("../images/ato/proto-ato.png");
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 700px;
@@ -328,14 +328,22 @@ span:hover{
 
 .research-image{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/stats-edgars.png");
+    background-image: url("../images/ato/stats-ato.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 800px;
+    min-height: 300px;
 }
 
 .interview-content{
     grid-column: 2 / 12;
+}
+
+.matrix-image{
+    grid-column: 2 / 12;
+    background-image: url("../images/ato/findings-ato.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 700px;
 }
 
 @media only screen and (max-width:1000px){
@@ -365,10 +373,10 @@ span:hover{
 
 .persona-image{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/user-persona-edgars.png");
+    background-image: url("../images/ato/flow-ato.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 600px;
 }
 
 @media only screen and (max-width:1000px){
