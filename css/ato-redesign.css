@@ -212,6 +212,10 @@ span:hover{
         height: 20px;
         top: 0.7rem;
     }
+
+    .toggle-button .bar{
+        height: 2px;
+    }
 }
 
 /* Navigation - Top END */

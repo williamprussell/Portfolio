@@ -42,6 +42,25 @@ h3 {
     color: #b80000;
 }
 
+@media only screen and (max-width:400px){
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 17px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
+
 /* #site-container{
     float: none;
     margin-left: auto;
@@ -176,6 +195,28 @@ span:hover{
     }
 }
 
+@media only screen and (max-width:750px){
+    .logo{
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .logo{
+        height: 25px;
+    }
+
+    .toggle-button{
+        width: 40px;
+        height: 20px;
+        top: 0.7rem;
+    }
+
+    .toggle-button .bar{
+        height: 2px;
+    }
+}
+
 /* Navigation - Top END */
 
 /* Hero START */
@@ -290,6 +331,31 @@ span:hover{
     }
 }
 
+@media only screen and (max-width: 400px) {
+
+    .title{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .intro{
+        font-size: 14px;
+    }
+
+    .hero-image {
+        grid-column: span 12;
+    }
+
+    .info-container {
+        grid-column: span 12;
+        padding: 2rem;
+    }
+
+    .hero-image{
+        min-height: 300px;
+    }
+}
+
 /* Hero END */
 
 /* Case Studies START */
@@ -388,13 +454,13 @@ span:hover{
 
 @media only screen and (max-width: 1250px) {
     .case-study-right{
-        grid-column: span 12;
+        grid-column: 2 / 12;
         padding-left: 0;
         text-align: left;
     }
 
     .case-study-left{
-        grid-column: span 12;
+        grid-column: 2 / 12;
         padding-right: 0;
         text-align: left;
     }
@@ -414,6 +480,27 @@ span:hover{
     }
 }
 
+@media only screen and (max-width: 400px){
+    .impact-image{
+        margin-left: 1rem;
+        min-height: 450px;
+    }
+
+    .edgars-mission-image{
+        min-height: 200px;
+    }
+
+    .ato-image{
+        min-height: 300px;
+    }
+
+    .buy-borrow-image{
+        min-height: 250px;
+        margin-top: 4rem;
+    }
+}
+
+
 /* Case studies END */
 
 /* About me START */
@@ -432,7 +519,6 @@ span:hover{
     grid-column: 2/ 12;
     font-size: 18px;
     font-family: Lato, Arial, sans-serif;
-    text-align: center;
 } 
 
 .skills {
@@ -476,12 +562,25 @@ h2 {
 
 
 @media only screen and (max-width: 1000px){
-    .will.info{
-        grid-column: span 12;
-    }
 
     .skills{
         grid-column: span 12;
+        padding-right: 0;
+    }
+
+    .tools{
+        grid-column: span 12;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .will.info{
+        text-align: left;
+    }
+
+    .skills{
+        grid-column: 2 /12;
         padding-right: 0;
     }
 
@@ -541,6 +640,10 @@ form button {
     cursor: pointer;
   }
 
+  .message{
+    height: 200px;
+}
+
 @media only screen and (max-width:1500px){
     input{
         width: 200%;
@@ -550,6 +653,12 @@ form button {
 @media only screen and (max-width:900px){
     input{
         width: 175%;
+    }
+}
+
+@media only screen and (max-width:400px){
+    input{
+        width: 110%;
     }
 }
 
