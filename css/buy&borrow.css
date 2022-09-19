@@ -278,10 +278,11 @@ span:hover{
 }
 
 .method{
-    background-image: url("../images/edgars-mission/method-edgars.png");
+    background-image: url("../images/buy-borrow/method-buy-borrow.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 200px;
+    min-height: 500px;
+    margin-left: 12rem;
 }
 
 @media only screen and (max-width:1000px){
@@ -300,10 +301,10 @@ span:hover{
 
 .proto-image{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/proto-edgars.png");
+    background-image: url("../images/buy-borrow/proto-buy-borrow.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 800px;
 }
 
 @media only screen and (max-width:1000px){
@@ -324,14 +325,15 @@ span:hover{
 
 .research-content{
     grid-column: 2 / 12;
+    margin-bottom: 2rem;
 }
 
 .research-image{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/stats-edgars.png");
+    background-image: url("../images/buy-borrow/user-testing-buy-borrow\'.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 800px;
+    min-height: 750px;
 }
 
 .interview-content{
@@ -365,7 +367,7 @@ span:hover{
 
 .persona-image{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/user-persona-edgars.png");
+    background-image: url("../images/buy-borrow/user-persona-buy-borrow.png");
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 700px;
