@@ -395,12 +395,6 @@ span:hover{
 
 /* Key Insights END */
 
-/* Problem Statement START */
-
-.problem-statement{
-    grid-column: 2 / 12;
-}
-
 /* Ideation START */
 
 .ideation-1{
@@ -410,10 +404,10 @@ span:hover{
 
 .comp-analysis{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/site-anal-edgars.png");
+    background-image: url("../images/buy-borrow/companalysis-buy-borrow.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 400px;
+    min-height: 600px;
     margin-bottom: 4rem;
 }
 
