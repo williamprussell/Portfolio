@@ -430,10 +430,10 @@ span:hover{
 
 .feature-prior{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/comp-anal-edgars.png");
+    background-image: url("../images/buy-borrow/feature-matrix-buy-borrow.png");
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 600px;
+    min-height: 800px;
     margin-bottom: 4rem;
 }
 
@@ -454,27 +454,6 @@ span:hover{
     margin-bottom: 4rem;
 }
 
-.value-proposition{
-    grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/feature-prior-edgars.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 700px;
-    margin-bottom: 4rem;
-}
-
-@media only screen and (max-width:1000px){
-    .value-proposition{
-        min-height: 500px;
-    }
-}
-
-@media only screen and (max-width:750px){
-    .value-proposition{
-        min-height: 350px;
-    }
-}
-
 .ideation-4{
     grid-column: 2/ 12;
     margin-bottom: 4rem;
@@ -482,7 +461,7 @@ span:hover{
 
 .storyboard{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/user-journey-edgars.png");
+    background-image: url("../images/buy-borrow/journey-map-buy-borrow.png");
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 1000px;
@@ -528,7 +507,7 @@ span:hover{
 
 .flow-image-2{
     grid-column: 2 / 12;
-    background-image: url("../images/edgars-mission/user-flow-edgars.png");
+    background-image: url("../images/buy-borrow/user-flow-buy-borrow.png");
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 800px;
