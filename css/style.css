@@ -488,6 +488,7 @@ span:hover{
 
     .edgars-mission-image{
         min-height: 200px;
+        max-height: 150px;
     }
 
     .ato-image{
