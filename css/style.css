@@ -238,7 +238,7 @@ span:hover{
 }
 
 .hero-image {
-    background-image: url("../images/will-1-greyscale.jpg");
+    background-image: url("../images/will-hero.png");
     background-size: cover;
     min-height: 850px;
     width: auto;
